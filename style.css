@@ -7,7 +7,7 @@ body{
 
 *{
     margin: 2em;
-    border: 0.5px ;
+    border: 1px ;
 }
 
 .header{
@@ -105,9 +105,58 @@ ul{
 }
 
 .text-container button{
-    background-color: aqua;
+    background-color: rgb(77, 200, 241);
     padding: 8px 20px;
     margin-top: -2em;
-    border-radius: 13px;    
+    border-radius: 13px;
+    font-size: 18px;
+    color: #e5e7eb;    
+}
+.section-one{
+    display: block;
+    
+    background-color: grey;
+    margin: auto;
+}
+
+.section-two{
+    margin-top: -30px;
+    background-color: white;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+
     
 }
+
+.info{
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 2em auto;
+}
+
+.images, .subtexts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -26px;
+}
+
+.images div, .subtexts div{
+    flex: 1 1 0;
+    aspect-ratio: 1 / 1;
+    border-radius: 12px;
+    background-color: gray;
+}
+.images div{
+    border: 3px solid blue;
+}
+
+.subtexts div{
+    margin-top: -2em;
+    padding: 3px;
+    background-color: white;
+    text-align: center;
+}
+

@@ -7,7 +7,7 @@ body{
 
 *{
     margin: 2em;
-    border: 3px dashed gold;
+    border: 0.5px ;
 }
 
 .header{
@@ -17,6 +17,7 @@ body{
     width: 1000px;
     align-items: baseline;
     justify-content: space-between;
+
 }
 
 .main{
@@ -24,7 +25,7 @@ body{
     flex: 3;
     background-color: #1f2937;
     width: 1000px;
-    margin-top: -2em;
+    margin-top: -30px;
     align-items: stretch;
         
 }
@@ -62,12 +63,13 @@ ul{
     font-weight: 900;
     margin: 1em;
     padding: 20px;
-    flex: 1;
+    margin-left: 16px;    
     
 }
 
 .sub-text{
     margin: 1em;
+    margin-top: -3em ;
     padding: 20px;
     color: #e5e7eb;
     font-size: 18px;
@@ -84,10 +86,28 @@ ul{
 
 .four{
     flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: fit-content;
     
 }
 .four img{
     width: 100%;
-    height: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
+}
+
+.text-container{
+    display: inline-block;
+    margin: 1em;
+    padding: 20px;
+}
+
+.text-container button{
+    background-color: aqua;
+    padding: 8px 20px;
+    margin-top: -2em;
+    border-radius: 13px;    
+    
 }

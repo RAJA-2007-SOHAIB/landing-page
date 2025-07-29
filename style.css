@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
+    
 }
 
 *{
@@ -170,3 +170,28 @@ ul{
     border-radius: 6px;
 }
 
+.section-three{
+    background-color: gray;
+    margin-top: -31px;
+}
+
+.container-three{
+    background-color: #e5e7eb;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -26px;
+}
+
+.quote{
+    width: 620px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+.quote .said-by{
+    text-align: end;
+    margin-top: 8px;
+    font-weight: 700;
+}
